@@ -111,6 +111,8 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
         const SizedBox(height: 16),
         const Text('This is the new text added to the main screen.'),
+        const SizedBox(height: 8),
+        const Text('This is another text added below the previous one.'),
           ],
         ),
       ),
