@@ -109,6 +109,8 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
+        const SizedBox(height: 16),
+        const Text('This is the new text added to the main screen.'),
           ],
         ),
       ),
